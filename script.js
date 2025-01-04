@@ -21,16 +21,16 @@ skillsBtn.addEventListener("click", (event) => {
 // Light & Dark Theme
 document.addEventListener("DOMContentLoaded", () => {
   const toggleThemeButton = document.getElementById("toggleTheme");
-  const themeIcon = document.querySelector('img[alt="theme icon"]');
-  const githubLogo = document.querySelector('img[alt="github logo"]');
-  const linkedinLogo = document.querySelector('img[alt="linkedin logo"]');
+  const themeIcon = document.querySelector('["theme icon"]');
+  const githubLogo = document.querySelector( '["github logo"]');
+  const linkedinLogo = document.querySelector('["linkedin logo"]');
   const emailLogo = document.querySelector('img[alt="email logo"]');
 
   const lightLogos = {
     github: "assets/github_light.png",
     linkedin: "assets/linkedin_light.png",
     email: "assets/email_light.png",
-    theme: "assets/theme_light.png",
+    theme: "theme_light.png",
   };
 
   const darkLogos = {
